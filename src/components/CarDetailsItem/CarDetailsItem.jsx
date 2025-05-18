@@ -1,5 +1,5 @@
 import css from "./CarDetailsItem.module.css";
-import sprite from "../../assets/icons/sprite.svg";
+import sprite from "../../assets/icons/sprite.png";
 
 const CarDetailsItem = ({ car }) => {
   if (!car) return null;
