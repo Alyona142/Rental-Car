@@ -3,6 +3,12 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --white: #ffffff;
+  --main: #121417;
+  --gray: #8a8a89;
+  --button: #3470ff;
+  --button-hover: #0b44cd;
+  --inputs: #f7f7fb;
 }
 
 .logo {

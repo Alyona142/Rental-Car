@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.conditionsList,
+.specsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.conditionItem,
+.specItem {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.specItem span {
+  font-weight: 600;
+}

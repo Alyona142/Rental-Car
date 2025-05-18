@@ -18,3 +18,15 @@ export const getAllCars = createAsyncThunk(
     }
   }
 );
+
+export const getCarById = createAsyncThunk(
+  "cars/getById",
+  async (id, thunkAPI) => {
+    try {
+      const response = await API.get(`/cars/${id}`);
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
+);
